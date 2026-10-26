@@ -1,0 +1,12 @@
+# RAG : base vectorielle + embeddings (dense et sparse)
+qdrant-client>=1.10
+fastembed>=0.5
+# Agents
+langgraph>=0.2
+# Optionnel : active le LLM (Claude). Sans clé API, le mode hors ligne s'applique.
+langchain-anthropic>=0.3
+# Interface et tests
+streamlit>=1.50
+pytest>=8.0
+# environement 
+python-dotenv
